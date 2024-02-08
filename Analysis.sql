@@ -49,7 +49,7 @@ rating	FLOAT(2, 1) NOT NULL
 
 #
 alter table sales_data
-add column time_of_day varchar(30);	`
+add column time_of_day varchar(30);	
 
 -- After creating the new column we populate it so that if time is before 12:00:00 then we enter AM else we put PM
 #
